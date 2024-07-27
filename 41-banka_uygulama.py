@@ -9,7 +9,7 @@
     hesap = BankaHesabi("Aleyna K U")
     hesap.hesapSahibi => Aleyna K U
     hesap.bakiye => 0.0
-    hesap.paraYatir(100000000000000) => 100000000000000.0
+    hesap.paraYatir(1000000000000) => 1000000000000.0
     hesap.paraCek(1000000) => 1000000.0
 
 """
@@ -51,7 +51,7 @@ print(hesap.hesapSahibi)  # Aleyna K U yazdırır
 print(hesap.get_bakiye())  # 0.0 yazdırır
 
 # Para yatırma işlemi yapıyorum ve sonucu yazdırıyorum
-print(hesap.paraYatir(100000000000000))  # 100000000000000.0 yazdırır
+print(hesap.paraYatir(1000000000000))  # 1000000000000.0 yazdırır
 
 # Para çekme işlemi yapıyorum ve sonucu yazdırıyorum
 print(hesap.paraCek(1000000))  # 99999000000000.0 yazdırır
