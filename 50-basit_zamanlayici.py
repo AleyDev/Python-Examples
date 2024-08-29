@@ -1,4 +1,3 @@
-
 import tkinter as tk
 from tkinter import messagebox
 import winsound  # Windows'ta ses çalmak için kullanıyorum
