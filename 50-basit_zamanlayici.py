@@ -42,5 +42,6 @@ def show_notification():
 start_button = tk.Button(root, text="Başlat", command=start_timer)
 start_button.pack(pady=20)
 
+
 # Ana döngüyü başlatıyorum
 root.mainloop()
